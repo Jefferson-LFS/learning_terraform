@@ -9,8 +9,8 @@ variable "aws_region" {
 
 }
 
-variable "aws_profile" {
-  type        = string
-  description = ""
+# variable "aws_profile" {
+#   type        = string
+#   description = ""
 
-}
+# }

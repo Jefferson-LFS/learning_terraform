@@ -11,7 +11,7 @@ terraform {
 
 provider "aws" {
   region  = var.aws_region
-  profile = var.aws_profile
+  # profile = var.aws_profile
 
 }
 
@@ -20,6 +20,6 @@ provider "aws" {
 provider "aws" {
   alias   = "west-2"
   region  = "us-west-2"
-  profile = var.aws_profile
+  # profile = var.aws_profile
 
 }

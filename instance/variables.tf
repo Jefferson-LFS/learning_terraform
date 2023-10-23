@@ -10,11 +10,11 @@ variable "aws_region" {
 
 }
 
-variable "aws_profile" {
-  type        = string
-  description = ""
+# variable "aws_profile" {
+#   type        = string
+#   description = ""
 
-}
+# }
 
 variable "key_pair_name" {
   type        = string
